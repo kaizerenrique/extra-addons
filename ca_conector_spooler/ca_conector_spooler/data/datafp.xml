@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!-- -->
+    <data noupdate="0">
+
+        <!-- ******* Generales ******** -->
+
+        <record id="fp1" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo</field>
+            <field name="fp_odoo">Efectivo</field>
+        </record>
+
+        <record id="fp54" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo</field>
+            <field name="fp_odoo">Efectivo Bs</field>
+        </record>
+
+        <record id="fp2" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo</field>
+            <field name="fp_odoo">Efectivo VEF</field>
+        </record>
+
+        <record id="fp3" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo_usd</field>
+            <field name="fp_odoo">Efectivo USD</field>
+        </record>
+
+        <record id="fp4" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo_usd</field>
+            <field name="fp_odoo">Efectivo $</field>
+        </record>
+
+        <record id="fp57" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo_usd</field>
+            <field name="fp_odoo">Divisa$</field>
+        </record>
+
+        <record id="fp5" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo_euro</field>
+            <field name="fp_odoo">Efectivo EUR</field>
+        </record>
+
+        <record id="fp6" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Transferencia</field>
+        </record>
+
+        <record id="fp7" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Transferencia Bs</field>
+        </record>
+
+        <record id="fp8" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Transferencia VEF</field>
+        </record>
+
+        <record id="fp9" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Transferencia USD</field>
+        </record>
+
+        <record id="fp10" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Transferencia $</field>
+        </record>
+
+        <record id="fp11" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Transferencia en dolares</field>
+        </record>
+
+        <record id="fp12" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco</field>
+        </record>
+
+        <record id="fp13" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Bs</field>
+        </record>
+
+        <record id="fp14" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco USD</field>
+        </record>
+
+        <record id="fp15" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco $</field>
+        </record>
+
+        <record id="fp16" model="formaspago.spooler">
+            <field name="fp_spooler">trans_euro</field>
+            <field name="fp_odoo">Banco EUR</field>
+        </record> 
+
+        <record id="fp17" model="formaspago.spooler">
+            <field name="fp_spooler">zelle</field>
+            <field name="fp_odoo">Zelle</field>
+        </record>
+
+        <record id="fp18" model="formaspago.spooler">
+            <field name="fp_spooler">pago_movil</field>
+            <field name="fp_odoo">Pago movil</field>
+        </record> 
+
+        <record id="fp19" model="formaspago.spooler">
+            <field name="fp_spooler">credito</field>
+            <field name="fp_odoo">Credito</field>
+        </record> 
+
+        <record id="fp20" model="formaspago.spooler">
+            <field name="fp_spooler">credito</field>
+            <field name="fp_odoo">Crédito</field>
+        </record> 
+
+        <record id="fp55" model="formaspago.spooler">
+            <field name="fp_spooler">efectivo_bs</field>
+            <field name="fp_odoo">Point of Sale</field>
+        </record> 
+
+
+        <!-- ************** Bancos y otras cuentas o diarios especificos **************** -->
+
+        <record id="fp21" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banesco</field>
+        </record>
+
+        <record id="fp22" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banesco Bs</field>
+        </record>
+
+        <record id="fp23" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banesco USD</field>
+        </record>
+
+        <record id="fp24" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banesco $</field>
+        </record>
+
+        <record id="fp25" model="formaspago.spooler">
+            <field name="fp_spooler">trans_euro</field>
+            <field name="fp_odoo">Banesco EUR</field>
+        </record>
+
+        <record id="fp26" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Bicentenario</field>
+        </record>
+
+        <record id="fp27" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Bicentenario Bs</field>
+        </record>
+
+        <record id="fp28" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Bicentenario USD</field>
+        </record>
+
+        <record id="fp29" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Bicentenario $</field>
+        </record>
+
+        <record id="fp30" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco del Tesoro</field>
+        </record>
+
+        <record id="fp31" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco del Tesoro Bs</field>
+        </record>
+
+        <record id="fp32" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco del Tesoro USD</field>
+        </record>
+
+        <record id="fp33" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco del Tesoro $</field>
+        </record>
+
+        <record id="fp34" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Fondo Comun</field>
+        </record>
+
+        <record id="fp35" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Fondo Comun Bs</field>
+        </record>
+
+        <record id="fp36" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Fondo Comun USD</field>
+        </record>
+
+        <record id="fp37" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Fondo Comun $</field>
+        </record>
+
+        <record id="fp38" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Mercantil</field>
+        </record>        
+
+        <record id="fp39" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Mercantil Bs</field>
+        </record>
+
+        <record id="fp40" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Mercantil USD</field>
+        </record>
+
+        <record id="fp41" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Mercantil $</field>
+        </record>
+
+        <record id="fp42" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Venezuela</field>
+        </record>
+
+        <record id="fp43" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco Venezuela Bs</field>
+        </record>
+
+        <record id="fp44" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Venezuela USD</field>
+        </record>
+        
+        <record id="fp45" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco Venezuela $</field>
+        </record>
+
+        <record id="fp46" model="formaspago.spooler">
+            <field name="fp_spooler">trans_euro</field>
+            <field name="fp_odoo">Banco Venezuela EUR</field>
+        </record>
+        <!-- 17/01/2023 -->
+        <record id="fp47" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco del Caribe</field>
+        </record>
+
+        <record id="fp48" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Banco del Caribe Bs</field>
+        </record>
+
+        <record id="fp49" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco del Caribe USD</field>
+        </record>
+
+        <record id="fp50" model="formaspago.spooler">
+            <field name="fp_spooler">trans_usd</field>
+            <field name="fp_odoo">Banco del Caribe $</field>
+        </record>
+
+        <record id="fp51" model="formaspago.spooler">
+            <field name="fp_spooler">trans_euro</field>
+            <field name="fp_odoo">Banco del Caribe EUR</field>
+        </record>
+
+        <record id="fp52" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Retención IVA ventas</field>
+        </record>
+
+        <record id="fp53" model="formaspago.spooler">
+            <field name="fp_spooler">trans_bs</field>
+            <field name="fp_odoo">Facturas de cliente</field>
+        </record>
+
+        <record id="fp55" model="formaspago.spooler">
+            <field name="fp_spooler">tarj_debito</field>
+            <field name="fp_odoo">Tarjeta de debito</field>
+        </record>
+
+        <record id="fp56" model="formaspago.spooler">
+            <field name="fp_spooler">tarj_debito</field>
+            <field name="fp_odoo">Debito</field>
+        </record>
+
+        <record id="fp58" model="formaspago.spooler">
+            <field name="fp_spooler">tarj_credito</field>
+            <field name="fp_odoo">Tarjeta de credito</field>
+        </record>
+
+    </data>
+
+</odoo>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_partner_form" model="ir.ui.view">
+        <!--<field name="name">res.partner.form.inherit</field>-->
+        <field name="name">partner.extended.subsidios.form.view</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Subsidios">
+                    <group>
+                        <field name="subsidiaria_partner_id" invisible="is_company" />
+                        <field name="es_subsidiaria" invisible="not is_company"/>
+                        <field name="producto_factura_id" invisible="not is_company" readonly="not es_subsidiaria"/>
+                        <field name="producto_factura_subsi_id" invisible="not is_company" readonly="not es_subsidiaria"/>
+                        <field name="porcentaje_subsidio" invisible="not is_company" readonly="not es_subsidiaria"/>
+                        <field name="max_subsidios_dia"  invisible="1"  readonly="not es_subsidiaria"/>
+                        <field name="subsidio_activo"/>
+                        <field name="categorias_permitidas_ids" invisible="not is_company" readonly="not es_subsidiaria"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
